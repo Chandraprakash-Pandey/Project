@@ -1,28 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-header{
-    margin-top: 20px;
-    padding-bottom: 60px;
-    /* margin-bottom: 60px; */
-    margin-left: 40px;
-    margin-right: 40px
-}
-
-#menu{
-    display: none;
-}
-
-#line{
-    background-color: #032d60;
-    /* background-color: #1f0974; */
+*{
     margin: 0px;
     padding: 0px;
-}
-
-.head-title, #tryfree, #contactus, .p-a, .d-a, .sft, .sft2, #more{
     font-family: "Fredoka", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -30,203 +9,253 @@ header{
     font-variation-settings: "wdth" 105.7;
 }
 
-.head-title{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.head{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: white;
 }
 
-#logo{
-    height: 47px;
-} 
+nav{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
-.head1{
-    float: left;
+.div-1{
     display: flex;
     gap: 30px;
 }
 
-.head2{
-    float: right;
-    display: flex;
-    gap: 25px;
+.saleforce-logo{
+    height: 50px;
+    float: left;
 }
 
-.icon{
-    height: 30px;
-    margin-top: 5px;
+.span-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#more{
-    display: none;
+.div-2{
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
 }
 
-#tryfree{
+#search{
+    height: 17px;
+    margin-top: 10px;
+}
+
+#earth{
+    height: 17px;
+    margin-top: 10px;
+}
+
+.login{
+    margin-top: 10px;
+    display: flex;
+}
+
+#log{
+    height: 20px;
+}
+
+.tryfree{
+    height: 20px;
+    padding: 10px 20px;
     background-color: green;
     color: white;
-    padding: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
     border-radius: 5px;
 }
 
-#tryfree:hover{
-    background-color: black;
-}
-
-#contactus:link{
-    color: black;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-#contactus:hover{
-    color: blue;
-    text-decoration: underline;
-}
-
-.head-title:hover{
+.span-1:hover, #contactus:hover{
     color: rgb(31, 126, 222);
 }
 
-.tp{
-    background-color: #032d60;
-    height: 40px;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.tryfree:hover{
+    background-color: black;
 }
 
-h1{
-    color: #1f0974;
+#timepass{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(11, 6, 114);
 }
 
-.outer{
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-.df{
-    width: 90px;
-    height: 25px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-.p-a{
-    display: inline;
-    color: white;
-    text-align: center;
-    margin: 0px;
-    margin-top: 10px;
-}
-
-.d-a{
-    color: white;
-    margin-top: 10px;
-    text-decoration: underline;
-}
-
-.d-a:hover{
-    text-decoration: none;
-}
-
-.b1{
-    width: 34%;
-}
-
-h1{
-    font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-size: 60px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.outer{
-    display: flex;
-    gap: 10%;
-}
-
-.para1{
-    font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 25px;
-  margin-bottom: 50px;
-}
-
-.sft{
-    font-size: larger;
+.bot{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
     background-color: #0176d3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
     color: white;
-    padding: 15px;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
-.sft:hover{
-    background-color: #032d60;
+#bot-img{
+    border-radius: 50%;
+    float: left;
 }
 
-.sft2{
-    padding: 15px;
-    border: 2px solid #0176d3;
-    color: #0176d3;
-    border-radius: 5px;
+#bot-chat{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    text-align: center;
 }
 
-.sft2:hover{
-    border-color: black;
-    color: black;
-    background-color: aliceblue;
+.div-3{
+    /* background-image: url(./php-marquee-starter-lg-bg.webp); */
+    
+    width: 100%;
+    margin-bottom: 100px;
 }
 
-#video{
+.div-3-content{
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 70px;
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    /* margin-bottom: px; */
+}
+
+.content{
     width: 800px;
-    height: 400px;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    color: #070b52;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+iframe{
     border-radius: 20px;
 }
 
-@media (min-width: 1280px) and (max-width: 1315px)
-{
-    #more{
-        display: inline;
-    }
-
-    .hide{
-        display: none;
-    }
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
-@media (max-width: 1280px){
-    .head-title, #contactus, #globe{
-        display: none;
-    }
+.sftwd{
+    margin-top: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
 
-    #logo{
-        height: 40px;
-    }
+#sft{
+    background-color: #0176d3;
+    padding: 15px 25px;
+    color: white;
+    position: static;
+    top: 15px;
+    border-radius: 5px;
+}
 
-    .icon{
-        height: 20px;
-        margin-top: 5px;
-    }
+#sft:hover{
+    background-color: #021b30;
+}
 
-    .container1{
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+#wd{
+    color: #0176d3;
+    position: static;
+    top: 15px;
+    padding: 15px 25px;
+    border: 2px solid #0176d3;
+    border-radius: 5px;
+}
 
-    #tryfree{
-        font-size: small;
-        padding: 7px;
-    }
+#wd:hover{
+    color: black;
+    border-color: black;
+    background-color: aliceblue;
+}
 
-    #menu{
-        display: block;
-        height: 20px;
-        margin-top: 5px;
-    }
+.div-4-content{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+h2{
+    clear: both;
+    font-family: "Oswald", sans-serif;
+    color: #070b52;
+    font-size: 50px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 70px
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    /* background-color: black; */
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 1px;
+    
+    /* background-color: aliceblue; */
+}
+
+.box-img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.container-content{
+    margin-top: 50px;
+    margin-left: 30px;
+    position: static;
+
+}
+
+.container-content h3{
+    font-family: "Oswald", sans-serif;
+    color: #070b52;
+}
+
+.container-content p{
+    font-size: 17px;
+    font-weight: 50;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.container-content a{
+    position: relative;
+    top: 70px;
+    color: #021b30;
+}
+
+.mountain{
+    background-image: url(./div-4.webp);
+    padding-bottom: 100px;
+}
+
+#vaop{
+    text-align: center;
+    color: #0176d3;
+    padding: 12px 25px;
+    border: 2px solid #0176d3;
+    border-radius: 5px;
 }
