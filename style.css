@@ -158,20 +158,20 @@ p{
     justify-content: space-between;
 }
 
-#sft{
+.sft{
     background-color: #0176d3;
     padding: 15px 25px;
     color: white;
     position: static;
     top: 15px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
-#sft:hover{
-    background-color: #021b30;
+.sft:hover{
+    background-color: #0e0b56;
 }
 
-#wd{
+.wd{
     color: #0176d3;
     position: static;
     top: 15px;
@@ -184,6 +184,9 @@ p{
     color: black;
     border-color: black;
     background-color: aliceblue;
+}
+
+.div-4{
 }
 
 .div-4-content{
@@ -248,14 +251,40 @@ h2{
 }
 
 .mountain{
-    background-image: url(./div-4.webp);
-    padding-bottom: 100px;
+    /* background-image: url(./div-4.webp); */
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+
 }
 
 #vaop{
-    text-align: center;
+    text-decoration: none;
     color: #0176d3;
     padding: 12px 25px;
     border: 2px solid #0176d3;
     border-radius: 5px;
 }
+
+.div-5{
+    margin-right: 220px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+.div-5 h2{
+    margin-bottom: 20px;
+}
+
+.div-5 p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sftwd-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
