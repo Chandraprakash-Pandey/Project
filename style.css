@@ -114,7 +114,6 @@ nav{
 }
 
 .div-3{
-    /* background-image: url(./php-marquee-starter-lg-bg.webp);*/
     width: 100%;
     margin-bottom: 100px;
 }
@@ -126,7 +125,6 @@ nav{
     display: flex;
     gap: 120px;
     justify-content: space-between;
-    /* margin-bottom: px; */
 }
 
 .content{
@@ -204,13 +202,10 @@ h2{
 }
 
 .box{
-    /* background-color: black; */
     width: 300px;
     height: 430px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 0px;
-    
-    /* background-color: aliceblue; */
 }
 
 .box-img{
@@ -353,6 +348,10 @@ h2{
     width: 800px;
 }
 
+.div-6{
+    padding-bottom: 320px;
+}
+
 .div-6 a{
     text-decoration: none;
     color: #0176d3;
@@ -371,15 +370,41 @@ h2{
 }
 
 .img-company{
-    /* background-color: aliceblue; */
     box-shadow: 2px 2px 5px;
     width: 200px;
     height: 100px;
     padding: 0px;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .company{
     width: 150px;
-    text-align: center;
+    height: 50px;
+}
+
+.div-7{
+    height: 450px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px;
+}
+
+.div-7-content{
+    padding-left: 100px;
+    display: flex;
+    gap: 200px;
+}
+
+.div-7-content #last-img{
+    height: 400px;
+}
+
+.div-7-content h2{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: left;
+    margin-bottom: 100px;
 }
