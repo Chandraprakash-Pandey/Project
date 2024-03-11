@@ -389,7 +389,7 @@ h2{
     margin-left: 100px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .div-7-content{
@@ -407,4 +407,23 @@ h2{
     margin-top: 100px;
     text-align: left;
     margin-bottom: 100px;
+}
+
+footer{
+    margin-left: 100px;
+}
+
+.saleforce-logo-2{
+    height: 65px;
+    margin-bottom: 50px;
+}
+
+.last-logo{
+    height: 30px;
+}
+
+.hush{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
 }
