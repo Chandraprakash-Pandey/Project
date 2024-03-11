@@ -435,7 +435,7 @@ footer{
 
 .container-2-content p{
     margin: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 15px;
 }
 
@@ -444,4 +444,5 @@ footer{
     list-style: none;
     margin-bottom: 20px;
     font-size: 12px;
+    cursor: pointer;
 }
