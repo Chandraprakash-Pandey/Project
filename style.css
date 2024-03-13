@@ -196,14 +196,15 @@ h2{
 }
 
 .container{
-    /* background-image: url(./pb-hp-products-bg.webp);
+    /* background-position: bottom;
+    background-image: url(./pb-hp-products-bg.webp);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: contain; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
 }
 
 .box{
@@ -230,11 +231,12 @@ h2{
     color: #131a98;
     font-weight: 700;
 }
-.div-4-content{
-    background-image: url(./pb-hp-products-bg.webp);
+/* .div-4-content{ */
+    /* text-align: center; */
+    /* background-image: url(./pb-hp-products-bg.webp);
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: cover; */
+/* } */
 
 .container-content p{
     font-size: 17px;
@@ -251,8 +253,12 @@ h2{
 
 .mountain{
     text-align: center;
+    background-image: url(./pb-hp-products-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
     padding-bottom: 300px;
-    
+    background-color: rgb(228, 243, 243);
 }
 
 #vaop{
@@ -261,6 +267,7 @@ h2{
     padding: 12px 25px;
     border: 2px solid #0176d3;
     border-radius: 5px;
+    
 }
 
 .div-5{
