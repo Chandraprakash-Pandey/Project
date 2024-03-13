@@ -115,12 +115,15 @@ nav{
 .div-3{
     width: 100%;
     margin-bottom: 100px;
+    background-image: url(./php-marquee-starter-lg-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .div-3-content{
     margin-left: 120px;
     margin-right: 100px;
-    margin-top: 70px;
+    padding-top: 70px;
     display: flex;
     gap: 120px;
     justify-content: space-between;
@@ -193,6 +196,9 @@ h2{
 }
 
 .container{
+    /* background-image: url(./pb-hp-products-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
@@ -224,6 +230,11 @@ h2{
     color: #131a98;
     font-weight: 700;
 }
+.div-4-content{
+    background-image: url(./pb-hp-products-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .container-content p{
     font-size: 17px;
@@ -239,14 +250,9 @@ h2{
 }
 
 .mountain{
-    background-image: url(./div-4.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
     text-align: center;
-    width: 100%;
-    height: 300px;
-    margin-bottom: 50px;
-
+    padding-bottom: 300px;
+    
 }
 
 #vaop{
@@ -330,6 +336,7 @@ h2{
 .m-2{
     text-align: center;
 }
+
 
 #lff{
     text-decoration: none;
