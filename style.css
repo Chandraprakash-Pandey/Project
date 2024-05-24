@@ -256,9 +256,9 @@ h2{
     text-align: center;
     background-image: url(./pb-hp-products-bg.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     padding-top: 120px;
-    padding-bottom: 300px;
+    padding-bottom: 240px;
     background-color: rgb(228, 243, 243);
 }
 
